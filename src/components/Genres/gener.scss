@@ -1,0 +1,23 @@
+.gener {
+  margin-left: 30px;
+  margin-right: 30px;
+  .chip{
+    width:80px;
+    margin-right:20px;
+    &:hover{
+        width: 100px;
+
+    }
+  }
+}
+@media (max-width: 575px) {
+  .gener {
+    margin-left: 10px;
+    //s margin-right: 30px;
+    .chip {
+    margin-right:10px;
+    margin-top: 10px;
+  }
+  }
+  
+}

@@ -1,0 +1,104 @@
+.container-carousel {
+  display: flex;
+  
+}
+.carousel-content {
+  width: 86%;
+
+}
+.carousel-indicators li {
+  visibility: hidden;
+}
+.div-image {
+
+  width: 150px;
+  height: 200px;
+}
+.image {
+  width: 100px;
+  height: 200px;
+}
+
+.div-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.info-title {
+  font-family: Alliance2;
+  color: #000;
+  line-height: 0.76;
+  font-size: 2.5rem;
+  letter-spacing: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  margin: 24px 0 20px 0;
+}
+
+.info-subtitle {
+  font-family: Alliance2;
+  color: #000;
+  line-height: 0.76;
+  font-size: 1rem;
+  letter-spacing: normal;
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.carousel .slide {
+  background-color: transparent !important;
+}
+.slide {
+  min-width:17% !important;
+}
+/* For screens with width < 600px, display 2 items */
+@media only screen and (max-width: 600px) {
+  .slide {
+    min-width: 50% !important;
+  }
+}
+
+/* For all other screen sizes, display 3 items */
+
+@media (max-width:575px) {
+  .div-image {
+margin-right: 60px;
+  width: 120px;
+  height: 200px;
+}
+.carousel-content {
+  width: 90%;
+
+}
+.image {
+  width: 130px;
+  height: 200px;
+}
+ .slide {
+    min-width: 50% !important;
+  }
+}
+@media  (min-width:577px) and (max-width:1043px){
+  .div-image {
+margin-right: 30px;
+  width: 130px;
+  height: 200px;
+}
+.carousel-content {
+  width: 100%;
+
+}
+.image {
+  width: 120px;
+  height: 200px;
+}
+ .slide {
+    min-width: 20% !important;
+  }
+}

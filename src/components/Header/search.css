@@ -1,0 +1,19 @@
+.header_input{
+    display :flex;
+    align-items: center;
+    width: 40%;
+    margin-left: 150px;
+    border: 2px solid teal;
+}
+.header_input > input{
+   flex: 1;
+   border: none;
+   padding: 10px;
+   color: white;
+   background-color: #090909;
+}
+.header_inputIcon{
+    width: 50px !important;
+    color: gray;
+    margin-left: 20px;
+}

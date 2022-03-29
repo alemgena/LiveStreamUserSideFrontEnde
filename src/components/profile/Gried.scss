@@ -1,0 +1,27 @@
+.grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: stretch;
+    justify-items: stretch;
+    }
+  .grid img {
+    border: 2px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    max-width: 70%;
+  }
+  .headerText{
+    margin-top: 1em;
+    font-size: 1.5em;
+    color: #666;
+    font-weight: bold;
+    align-items: center;
+  }
+  @media (max-width: 576px) {
+  .images {
+    margin-left: 50px;
+    img {
+  width:100px;
+    }
+  }
+}
